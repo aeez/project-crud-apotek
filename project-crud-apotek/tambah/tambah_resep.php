@@ -15,10 +15,10 @@ if (isset($_POST["submit"])) {
 
 
     if ($query) {
-        header('location: index.php');
+        header('location: ../resep.php');
         echo "<script>alert('Data Berhasil Ditambah!');</script>";
     } else {
-        header('location: tambah_dokter.php');
+        header('location: tambah_resep.php');
         echo "<script>alert('Data Gagal Ditambah!');</script>";
     }
 }
