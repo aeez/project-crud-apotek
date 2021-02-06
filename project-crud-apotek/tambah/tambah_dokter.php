@@ -14,7 +14,7 @@ if (isset($_POST["submit"])) {
 
 
     if ($query) {
-        header('location: index.php');
+        header('location: ../index.php');
         echo "<script>alert('Data Berhasil Ditambah!');</script>";
     } else {
         header('location: tambah_dokter.php');
